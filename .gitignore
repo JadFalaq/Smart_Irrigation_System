@@ -1,0 +1,35 @@
+# PlatformIO
+.pio/
+
+# VS Code
+.vscode/
+
+# Dart / Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.log
+flutter_export_environment.sh
+
+# Flutter tools
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDEs
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+app flutter.zip
+*.zip
+
+# Firebase config (ne pas versionner les secrets)
+app flutter/android/app/google-services.json
+app flutter/ios/Runner/GoogleService-Info.plist
+*.keystore
+*.jks

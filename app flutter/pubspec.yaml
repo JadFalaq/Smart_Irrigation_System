@@ -1,0 +1,44 @@
+name: mikafa
+version: 1.0.0+1
+description: Application Flutter pour controler un systeme d'irrigation intelligent
+publish_to: "none"
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.4.0
+  firebase_database: ^12.1.2
+  provider: ^6.1.1
+  fl_chart: ^1.1.1
+  table_calendar: ^3.0.9
+  intl: ^0.20.2
+  shimmer: ^3.0.0
+
+  cupertino_icons: ^1.0.6
+  firebase_auth: ^6.1.4
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/logo.png"
+    background_color: "#0175C2"
+    theme_color: "#0175C2"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
